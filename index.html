@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/favicon.webp" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Case Study</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <button id='nav-toggle' class="navigation-toggle" aria-label="toggle main menu">
+            <i class="fa-solid fa-x"></i>
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="logo">
+            <img src="/assets/gp-logo.svg" alt="greenpeace logo" width="160" height="26" />
+        </div>
+        <nav id="nav-menu" class="navigation-menu">
+            <ul>
+                <li>
+                    <a class='link' href="">ΕΠΗΡΕΑΣΕ</a>
+                </li>
+                <li>
+                    <a class='link' href="">ΕΞΕΡΕΥΝΗΣΕ</a>
+                </li>
+                <li>
+                    <a class='cta main-button' href="">Υποστήριξέ μας</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="search">
+            <button id='search-toggle' class="search-btn-mobile" aria-label="toggle search field"><i
+                    class="fa-solid fa-magnifying-glass"></i></button>
+            <form id="search-form" class="search-form">
+                <button class="search-submit-button" type="submit
+                " aria-label="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input class='search-input' type="text" placeholder="Αναζήτηση" aria-label="search" value="Αναζήτηση">
+            </form>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-backdrop">
+            <div class="content-wrapper">
+                <div class="text-wrapper">
+                    <div class="text-backdrop">
+                        <div class="text">
+                            <h1 class="title">Ανακάλυψε την Κοινή Τάση</h1>
+                            <p class="paragraph">Γιατί να μην παράγουμε τη δική μας καθαρή, οικονομική ενέργεια, ώστε να
+                                ξεφύγουμε από τα
+                                ορυκτά
+                                καύσιμα και τους πανάκριβους λογαριασμούς; Όλοι έχουμε δικαίωμα να το κάνουμε, κι όταν
+                                είμαστε
+                                μαζί,
+                                μπορούμε να τα καταφέρουμε!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-wrapper">
+                    <form class="form" name="signatureForm">
+                        <input title="First Name" type="text" id="fname" name="fname" placeholder="Όνομα *" required>
+                        <input title="Last Name" type="text" id="lname" name="lname" placeholder="Επώνυμο *" required>
+                        <input title="Email" type="text" id="email" name="email" placeholder="Email *" required>
+                        <input title="Telephone" type="text" id="phone" name="phone" placeholder="Τηλέφωνο *"
+                            maxlength="10" minlength="10" pattern="[0-9]+" required>
+                        <button class="main-button" type="submit">Υπέγραψε</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section>
+        <div class="faq">
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-question">
+                        <p>Ουσιαστικά οφέλη</p><i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="accordion-answer">
+                        <p>Η εικονική αυτοπαραγωγή - όταν παράγουμε τη δική μας καθαρή ενέργεια για ιδιοκατανάλωση από
+                            ΑΠΕ, ακόμα κι αν το σημείο παραγωγής βρίσκεται μακριά από το σημείο κατανάλωσης - έχει μόνο
+                            οφέλη! Εξοικονομούμε χρήματα από τους λογαριασμούς, ενισχύουμε το εισόδημά μας, έχουμε
+                            καθαρή ενέργεια και συμμετέχουμε στην ενεργειακή δημοκρατία, δηλαδή στη μετάβαση από τα
+                            ορυκτά καύσιμα με επίκεντρο τους πολίτες.</p>
+                    </div>
+                </div>
+                <div class="accordion-item active">
+                    <div class="accordion-question">
+                        <p>Ουσιαστικές λύσεις</p><i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="accordion-answer ">
+                        <p>Οι λύσεις είναι πιο ξεκάθαρες από ποτέ: εξοικονόμηση ενέργειας, αυτοπαραγωγή και ενεργειακές
+                            κοινότητες! Οι ΕΚΟΙΝ είναι συνεταιρισμοί όπου οι απλοί πολίτες συμμετέχουν στην παραγωγή
+                            ενέργειας από καθαρές ανανεώσιμες πηγές, ανάλογα με τις ενεργειακές τους ανάγκες, και τα
+                            μέλη
+                            τους συνεργάζονται αποφασίζοντας οι ίδιοι τα επόμενά τους βήματα, με αλληλεγγύη και ισότητα.
+                            Γιατί η κοινότητα είναι αυτόνομη, δεν είναι όμως μόνη!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-image">
+                <img loading="lazy" src="/assets/solar-graph-min-resize.webp"
+                    alt="solar paner banner titled we empowered the citizens" width="620" height="620">
+            </div>
+        </div>
+    </section>
+
+    <!-- RESOURCES SECTION -->
+    <section>
+        <div class="resources">
+            <div class="resources-item">
+                <div class="icon-wrapper">
+                    <img src="/assets/home-icon.webp" alt="home icon" width="100" height="100">
+                </div>
+                <h2 class="title">Μη μένεις στο σκοτάδι</h2>
+                <p>Ανακάλυψε μικρούς και μεγάλους τρόπους εξοικονόμησης ενέργειας</p>
+                <button class="main-button">Μάθε περισσότερα</button>
+            </div>
+            <div class="resources-item">
+                <div class="icon-wrapper">
+                    <img src="/assets/solar-icon.webp" alt="solar energy icon" width="100" height="100">
+                </div>
+                <h2 class="title">Οι πολίτες θέλουν ΑΠΕ!</h2>
+                <p>Τα αποτελέσματα της έρευνάς μας για την ενέργεια στην Ελλάδα</p>
+                <button class="main-button">Διάβασε εδώ</button>
+
+            </div>
+            <div class="resources-item">
+                <div class="icon-wrapper">
+                    <img src="/assets/wind-icon.webp" alt="wind generator icon" width="100" height="100">
+                </div>
+                <h2 class="title">Επένδυσε με ουσία</h2>
+                <p>Χρηματοδότησε μία ενεργειακή κοινότητα μέσα από την Genervest</p>
+                <button class="main-button">Δες εδώ</button>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="social-links">
+                <h4 class="social-links-title">Follow us</h4>
+                <ul>
+                    <li>
+                        <a aria-label="facebook link" class="link" href=""><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a aria-label="twitter link" class="link" href=""><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a aria-label="youtube link" class="link" href=""><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a aria-label="instagram link" class="link" href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="company-links">
+                <li>
+                    <a class="link" href="">Ποιοι είμαστε</a>
+                </li>
+                <li>
+                    <a class="link" href="">Κέντρο Τύπου</a>
+                </li>
+                <li>
+                    <a class="link" href="">Θέσεις Εργασίας</a>
+                </li>
+                <li>
+                    <a class="link" href="">Επικοινωνία</a>
+                </li>
+                <li>
+                    <a class="link" href="">E-SHOP</a>
+                </li>
+            </ul>
+            <ul class="legal-links">
+                <li>
+                    <a class="link" href="/">Πολιτική απορρήτου</a>
+                </li>
+                <li>
+                    <a class="link" href="">Copyright</a>
+                </li>
+                <li>
+                    <a class="link" href="">Όροι χρήσης</a>
+                </li>
+                <li>
+                    <a class="link" href="">Αρχείο</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- COPYRIGHT -->
+    <section class="copyright">
+        <div class="copyright-wrapper">
+            <p>
+                <i class="fa-brands fa-creative-commons"></i> Greenpeace Ελλάδα 2003
+            </p>
+            <p> Unless otherwise stated, the copy of the website is licensed under a CC-BY International License</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
